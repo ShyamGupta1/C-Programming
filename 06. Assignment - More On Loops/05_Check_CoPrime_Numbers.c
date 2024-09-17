@@ -1,4 +1,4 @@
-// Write a program to print all Prime numbers under 100.
+// Write a program to check whether two given numbers are co-prime numbers or not.
 
 #include <stdio.h>
 
