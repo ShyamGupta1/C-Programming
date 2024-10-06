@@ -25,3 +25,14 @@ void reverse_string(char a[])
     }
     printf("Reverse String: %s", a);
 }
+
+/*
+void reverse_string(char a[])
+{
+    int i, l;
+    l = strlen(a) - 1;
+    for (i = 0; i < strlen(a) / 2; i++)
+        a[i] = a[i] + a[l - i] - (a[l - i] = a[i]);
+    printf("Reverse String: %s", a);
+}
+*/
