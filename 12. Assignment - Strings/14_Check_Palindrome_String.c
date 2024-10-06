@@ -30,3 +30,18 @@ void check_Palindrome(char a[])
     }
     printf("Palindrome");
 }
+
+/*
+void check_Palindrome(char a[])
+{
+    int i, l;
+    l = strlen(a) - 1;
+    for (i = 0; i < strlen(a) / 2; i++)
+        if (a[i] != a[l - i])
+        {
+            printf("Not Palindrome");
+            return;
+        }
+    printf("Palindrome");
+}
+*/
