@@ -32,6 +32,7 @@ void check_Palindrome(char a[])
 }
 
 /*
+
 void check_Palindrome(char a[])
 {
     int i, l;
