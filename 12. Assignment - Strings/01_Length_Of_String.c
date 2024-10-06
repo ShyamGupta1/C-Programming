@@ -28,3 +28,19 @@ for (i = 0; a[i]; i++)
             return i;
         }
 */
+
+/*
+void fl()
+{
+    char str[50];
+    int len;
+
+    printf("Enter a string: ");
+    fgets(str, sizeof(str), stdin);
+    str[strlen(str) - 1] = '\0';
+    for (len = 0; str[len]; len++)
+        ;
+
+    printf("Length is: %d\n", len);
+}
+*/
