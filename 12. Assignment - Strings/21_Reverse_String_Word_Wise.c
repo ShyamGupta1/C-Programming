@@ -71,6 +71,6 @@ char *reverse_String(char a[])
         a[p] = ' ';
         p++;
     }
-    a[p] = '\0';
+    a[p - 1] = '\0';
     return a;
 }
