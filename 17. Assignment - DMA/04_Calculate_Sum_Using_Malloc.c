@@ -21,5 +21,6 @@ int main()
     for (i = 0; i < size; i++)
         scanf("%d", ptr + i);
     printf("Sum is: %d", Sum(ptr, size));
+    free(ptr);
     return 0;
 }
